@@ -29,3 +29,8 @@ Documentation = "https://github.com/perlpunk/pyyaml-core"
 Repository = "https://github.com/perlpunk/pyyaml-core"
 Issues = "https://github.com/perlpunk/pyyaml-core/issues"
 Changelog = "https://github.com/perlpunk/pyyaml-core/blob/main/Changelog.md"
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.1",
+]
